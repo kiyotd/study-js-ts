@@ -15,7 +15,8 @@
   "rules": {
     "simple-import-sort/sort": "error",
     "no-debugger": "off",
-    "no-inner-declarations": "off"
+    "no-inner-declarations": "off",
+    "no-unused-vars": "off"
   },
   "overrides": [
     {
@@ -36,12 +37,14 @@
         "sourceType": "module"
       },
       "rules": {
+        "@typescript-eslint/no-unused-vars": "off",
         "@typescript-eslint/explicit-function-return-type": [
           "warn",
           {
             "allowExpressions": true
           }
-        ]
+        ],
+        "prefer-const": "off"
         //    "@typescript-eslint/no-explicit-any": "error",
       }
     }
