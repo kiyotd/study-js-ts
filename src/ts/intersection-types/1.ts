@@ -11,7 +11,7 @@ type EngineerBlogger = Engineer & Blogger;
 const quill: EngineerBlogger = {
   name: "quill",
   role: "front-end",
-  follower: 1000
+  follower: 1000,
 };
 
 type tmp = string & number; //never型

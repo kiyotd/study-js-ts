@@ -18,7 +18,7 @@ console.log(key);
 
 const SPORTS = {
   soccer: "Soccer",
-  baseball: "Baseball"
+  baseball: "Baseball",
 };
 
 // SPORTS の型 を keyof している
