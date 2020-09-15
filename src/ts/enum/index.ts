@@ -1,6 +1,6 @@
 //enum
 
-//自動で Windowsが0, Macが1, Linuxが2 になる
+//自動で Windowsが0, Macが1 になる
 enum OS {
   Windows,
   Mac,
@@ -17,7 +17,7 @@ const PC1: PC = {
 };
 const PC2: PC = {
   id: 2,
-  OSType: OS.Ma, // 1
+  OSType: OS.Mac, // 1
 };
 
 console.log(PC1, PC2); //{ id: 1, OSType: 0 } { id: 2, OSType: 1 }
