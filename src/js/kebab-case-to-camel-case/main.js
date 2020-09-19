@@ -27,5 +27,5 @@ function kebabCaseToCamelCase(string) {
 }
 
 //
-// const result = kebabCaseToCamelCase("set-user-name");
-// console.log(result);
+const result = kebabCaseToCamelCase("set-user-name");
+console.log(result);
