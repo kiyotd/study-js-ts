@@ -12,5 +12,7 @@ class Main {
 }
 
 const main = new Main();
-console.log(main.getA());
-console.log(main.getB());
+console.log(main.getA()); // 10
+console.log(main.getB()); // 20
+// console.log(main.#a); // error
+// console.log(main._b); // error
