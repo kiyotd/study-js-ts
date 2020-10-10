@@ -1,0 +1,2 @@
+// CommonJS
+exports.foo = "foo";
