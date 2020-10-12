@@ -1,5 +1,3 @@
-// Now using node v14.12.0 (64-bit)
-
 console.log(require("module").builtinModules);
 
 // [
