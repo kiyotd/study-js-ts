@@ -1,6 +1,9 @@
 # モジュールの読み込み順・実行の順番
 
-環境変数 `NODE_DEBUG` にデバッグしたいモジュール名を指定することでコンソールに出力できる。
+```bash
+$ node --version
+v12.19.0
+```
 
 ## CommonJS の場合
 
@@ -18,6 +21,8 @@ console.log("*** main.cjs END");
 ```bash
 NODE_DEBUG=module node src/js/load-run-order/cjs/main.cjs
 ```
+
+環境変数 `NODE_DEBUG` にデバッグしたいモジュール名を指定することでコンソールに出力できる。
 
 ```bash
 MODULE 18280: looking for "src\\js\\load-run-order\\cjs\\main.cjs" in ["C:\\Users\\admin\\.node_modules","C:\\Users\\admi
