@@ -5,6 +5,7 @@
 ## CommonJS の場合
 
 ```javascript
+// main.cjs
 console.log("*** main.cjs START");
 
 require("./1.cjs");
