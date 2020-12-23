@@ -1,6 +1,6 @@
 {
-  const arr = [1, 2, 3, 4, 5];
+  const arr: number[] = [1, 2, 3, 4, 5];
 
-  const arrResult = arr.filter((n) => n >= 3);
+  const arrResult: number[] = arr.filter((n) => n >= 4);
   console.log(arrResult); // [ 3, 4, 5 ]
 }
