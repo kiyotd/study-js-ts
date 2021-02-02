@@ -49,6 +49,7 @@
           }
         ],
         "prefer-const": "off"
+        //    "prettier/prettier": "warn"
         //    "@typescript-eslint/no-explicit-any": "error",
       }
     }
