@@ -15,6 +15,7 @@ const PC1: PC = {
   id: 1,
   OSType: OS.Windows, // 0
 };
+
 const PC2: PC = {
   id: 2,
   OSType: OS.Mac, // 1
