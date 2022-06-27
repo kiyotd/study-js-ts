@@ -29,8 +29,7 @@
       ],
       "extends": [
         "plugin:@typescript-eslint/eslint-recommended",
-        "plugin:@typescript-eslint/recommended",
-        "prettier/@typescript-eslint"
+        "plugin:@typescript-eslint/recommended"
       ],
       "plugins": [
         "@typescript-eslint"
@@ -48,9 +47,9 @@
             "allowExpressions": true
           }
         ],
-        "prefer-const": "off"
-        //    "prettier/prettier": "warn"
-        //    "@typescript-eslint/no-explicit-any": "error",
+        "prefer-const": "off",
+        "prettier/prettier": "warn",
+        "@typescript-eslint/no-explicit-any": "error"
       }
     }
   ]
